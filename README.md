@@ -2,7 +2,7 @@ Twell Ai - AI-Powered Career Development
 Unlock Your Career Potential with Intelligent AI Guidance
 Twell Ai is an innovative career development platform designed to help you navigate your professional journey with the power of artificial intelligence. By combining advanced AI tools with up-to-date industry insights, Twell Ai provides personalized guidance to optimize your resume, craft compelling cover letters, and master your interview skills, all tailored to your unique background and career aspirations.
 
-✨ Features
+✨ Key Features
 Intelligent Resume Builder: Generate professional, industry-specific resumes that highlight your strengths and align with current job market demands.
 
 Dynamic Cover Letter Generator: Create personalized cover letters that resonate with hiring managers, adapting to specific job descriptions and your professional story.
@@ -15,7 +15,7 @@ Customizable Content: Full control to edit and refine all AI-generated content u
 
 Secure & Private: Your professional information is encrypted and securely stored, with robust authentication powered by Clerk.
 
-🚀 How It Works
+🚀 How Twell Ai Works
 Twell Ai learns about your industry, experience, and skills during a simple onboarding process. This information is then leveraged by our AI models to:
 
 Personalize Content: Generate resumes, cover letters, and interview questions that are specifically aligned with your professional background and industry standards.
@@ -110,19 +110,3 @@ Open a Pull Request.
 
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details. (If you have a https://www.google.com/search?q=LICENSE file, otherwise omit this section or add one).
-
-### Make sure to create a `.env` file with following variables -
-
-```
-DATABASE_URL=
-
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
-
-GEMINI_API_KEY=
-```
